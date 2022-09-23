@@ -1,4 +1,4 @@
-export const USER_CONFIG = {
+export const CONFIG = {
   /**
    * 公众号配置
    */
