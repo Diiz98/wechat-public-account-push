@@ -34,7 +34,7 @@ export const CONFIG = {
       openUrl: "https://wangxinleo.cn",
     },
  
-  CALLBACK_USERS: [
+
     {
       // 一般都填自己
       name: "自己",
@@ -86,10 +86,7 @@ export const CONFIG = {
       ], color: '#6f6041'},
  
   ],
-  
-  {
-    one_talk: { value: '没有绝对的废物，只有放错位置的资源。', color: '#1e90fa' },
-    talk_from: { value: '上海市垃圾分类', color: '#5c23ca' },
+
 
 }
 
