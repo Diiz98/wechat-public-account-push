@@ -47,7 +47,7 @@ export const CONFIG = {
   
 
   FESTIVALS: [
-    {"type": "生日", "name": "坏男人", "year": "1997", "date": "07-18"},
+    {"type": "*生日", "name": "坏男人", "year": "1997", "date": "07-18", isShowAge: true},
   ],
   
   /**
@@ -55,7 +55,7 @@ export const CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 0,
+  FESTIVALS_LIMIT: 1,
   
   /** 日期相关 */
   
