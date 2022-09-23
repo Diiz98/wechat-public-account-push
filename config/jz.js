@@ -34,13 +34,6 @@ export const CONFIG = {
       openUrl: "https://wangxinleo.cn",
     },
  
-
-    {
-      // 一般都填自己
-      name: "自己",
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oIFqC6l9qevcWs84ZmXWCrQrvBpM",
-    },
   ],
   
   /** 天气相关 */
