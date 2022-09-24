@@ -47,7 +47,7 @@ export const CONFIG = {
   
 
   FESTIVALS: [
-    {"type": "*birthday", "name": "坏男人", "year": "1997", "date": "07-18", isShowAge: true},
+    {"type": "*生日", "name": "坏男人", "year": "1997", "date": "07-18", isShowAge: true},
   ],
   
   /**
