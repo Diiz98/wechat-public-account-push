@@ -61,7 +61,7 @@ export const CONFIG = {
   
   CUSTOMIZED_DATE_LIST: [
     // 我喜欢上你的日子
-    {"keyword": "lover_day", date: "2022-07-11", color: '#f0b4ee'}, 
+    {"keyword": "love_day", date: "2022-07-11", color: '#f0b4ee'}, 
   ],
   
   /** 插槽 */
