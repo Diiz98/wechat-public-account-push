@@ -47,7 +47,7 @@ export const CONFIG = {
   
 
   FESTIVALS: [
-    {"type": "*生日", "name": "坏男人", "year": "1997", "date": "07-18", isShowAge: true},
+    {"type": "*birthday", "name": "坏男人", "year": "1997", "date": "07-18", isShowAge: true},
   ],
   
   /**
@@ -70,7 +70,15 @@ export const CONFIG = {
    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
    * */
-
+SLOT_LIST: [
+    // 这样配置的话，就会每次随机选一句话发送
+    {"keyword": "lover_prattle", contents: [
+        "申请成为你爱里的永久居民。",
+        "真的希望有一天能等得到你",
+        "今天又是点点想你的一天哦",
+      ], color: '#6f6041'},
+ 
+  ],
   {
     one_talk: { value: '没有绝对的废物，只有放错位置的资源。', color: '#1e90fa' },
     talk_from: { value: '上海市垃圾分类', color: '#5c23ca' },
