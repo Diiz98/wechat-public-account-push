@@ -25,15 +25,6 @@ export const CONFIG = {
       city: "兰州",
       openUrl: "https://wangxinleo.cn",
     },
-    {
-      name: "小猪",
-      id: "oIFqC6l9qevcWs84ZmXWCrQrvBpM",
-      useTemplateId: "KkxFACB0q6Z-8SgtLiFN7NCdeF_NQM6Wo4VczdTF2Sc",
-      province: "甘肃",
-      city: "兰州",
-      openUrl: "https://wangxinleo.cn",
-    },
- 
   ],
   
   /** 天气相关 */
@@ -47,7 +38,7 @@ export const CONFIG = {
   
 
   FESTIVALS: [
-    {"type": "*生日", "name": "坏男人", "year": "1997", "date": "07-18", isShowAge: true},
+    {"type": "*生日", "name": "坏男人", "year": "1997", "date": "r07-18", isShowAge: true},
   ],
   
   /**
@@ -79,12 +70,9 @@ SLOT_LIST: [
       ], color: '#6f6041'},
  
   ],
-  {
-    one_talk: { value: '没有绝对的废物，只有放错位置的资源。', color: '#1e90fa' },
-    talk_from: { value: '上海市垃圾分类', color: '#5c23ca' },
-
-  ],
-
-
+  // sakana日
+    // {"keyword": "sakana_day", date: "2022-01-06"},
+    // ... 
+  
 }
 
