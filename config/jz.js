@@ -1,5 +1,4 @@
-/* eslint-disable */
-const USER_CONFIG = {
+
   /**
    * 公众号配置
    */
@@ -23,27 +22,6 @@ const USER_CONFIG = {
     /** 每日天气 */
     weather: true,
 
-    /** 节假日 */
-    // 下一休息日综合提醒
-    holidaytts: false,
-
-    /** 每日N句 */
-    // 金山每日一句
-    CIBA: false,
-    // 每日一言
-    oneTalk: false,
-    // 土味情话(彩虹屁)
-    earthyLoveWords: false,
-    // 朋友圈文案
-    momentCopyrighting: false,
-    // 毒鸡汤
-    poisonChickenSoup: false,
-    // 古诗古文
-    poetry: false,
-
-    /** 星座运势 */
-    horoscope: false,
-
     /** 生日消息和节日消息 */
     birthdayMessage: true,
 
@@ -58,7 +36,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oIFqC6l9qevcWs84ZmXWCrQrvBpM',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '00HkVQYzkVDAfWKc_xpLGcA7yT8icy4U5yZQLdjashE',
+      useTemplateId: 'As5XiGjoeNhVzAVLuebXsgDIOhktfBM-gwhSHRAZTq4',
       // 所在省份
       province: '甘肃',
       // 所在城市
@@ -81,7 +59,7 @@ const USER_CONFIG = {
     {
       name: '小猪',
       id: 'oIFqC6l9qevcWs84ZmXWCrQrvBpM',
-      useTemplateId: '00HkVQYzkVDAfWKc_xpLGcA7yT8icy4U5yZQLdjashE',
+      useTemplateId: 'As5XiGjoeNhVzAVLuebXsgDIOhktfBM-gwhSHRAZTq4',
       province: '甘肃',
       city: '兰州',
       openUrl: 'https://wangxinleo.cn',
