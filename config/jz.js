@@ -19,7 +19,7 @@ export const CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oIFqC6l9qevcWs84ZmXWCrQrvBpM“,
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "lgb3INCy_A-1zMmXBRPyVSc34KcSA6B1-lN7Okn7-ZE",
+      useTemplateId: "1qHtuYORakgEI6Wd2roq2J2awkvedmfzAnzHP5QRasw",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       province: "甘肃",
       city: "兰州",
@@ -54,11 +54,17 @@ export const CONFIG = {
     // 我喜欢上你的日子
     {"keyword": "love_day", date: "2022-07-11"}, 
   ],
-  
+   SLOT_LIST: [
+    // 这样配置的话，就会每次随机选一句话发送
+    {"keyword": "lover_prattle", contents: [
+        "申请成为你爱里的永久居民。",
+        "真的希望有一天能等得到你",
+        "今天又是点点想你的一天哦",
+      ], color: '#6f6041'},
+ 
+  ],
+ 
 
-  // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
-  
+
 }
 
